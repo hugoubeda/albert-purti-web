@@ -459,7 +459,96 @@ hr {
         max-width: 1012px;
     }
 
+    .navbar {
+        min-height: 34px;
+    }
+
     #pricing {
+        padding-top: 64px;
+    }
+
+    .plans-cards {
+        align-items: stretch;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .subheader .container {
+        justify-content: center;
+    }
+
+    #pricing {
+        margin-top: 40px !important;
         padding-top: 40px;
+    }
+
+    #pricing h1 {
+        font-size: 40px;
+    }
+
+    #pricing p {
+        width: 100%;
+    }
+
+    .subheader-nav a {
+        font-size: 14px;
+    }
+
+    .plans-cards {
+        align-items: center;
+        display: flex;
+        flex: 0 1 100%;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plans-card {
+        width: 66.66667%;
+    }
+
+    .plans-footer {
+        width: 100%;
+    }
+
+    #feature-comparison h2 {
+        font-size: 32px;
+    }
+
+    #feature-comparison p {
+        width: 100%;
+    }
+
+    #ready-to-get-started h2 {
+        font-size: 32px;
+    }
+
+    .social-icons-list li a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 543px) {
+    .container {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .plans-card {
+        width: 100%;
+    }
+
+    .plans-cards {
+        flex-flow: column;
+    }
+
+    .footer .container {
+        flex-flow: column-reverse;
+        align-items: flex-start;
+    }
+
+    .social-icons-list {
+        margin-bottom: 16px;
     }
 }
