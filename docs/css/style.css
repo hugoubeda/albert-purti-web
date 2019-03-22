@@ -7,6 +7,15 @@ body {
     background-color: #fff;
 }
 
+hr {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dfe2e5;
+    height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
 .header {
     background-color: #24292e;
     padding: 16px 0;
@@ -242,4 +251,116 @@ body {
     margin-top: 0 !important;
     font-size: 14px !important;
     width: 100% !important;
+}
+
+#feature-comparison {
+    padding: 64px 0;
+}
+
+#feature-comparison .container{
+    flex-direction: column;
+}
+
+#feature-comparison h2 {
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+#feature-comparison p {
+    width: 66.66667%;
+    color: #586069;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+#ready-to-get-started {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    flex-direction: column;
+}
+
+#ready-to-get-started h2 {
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+#ready-to-get-started p {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+#ready-to-get-started a {
+    background-color: #1277eb;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 24px;
+    transition: .2s;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#ready-to-get-started a:hover {
+    background-color: #0366d6;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer .container {
+    font-size: 12px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.copyright-list, .social-icons-list {
+    display: flex;
+    color: #586069;
+    font-size: 12px;
+    align-items: center;
+}
+
+.copyright-list li, .social-icons-list li {
+    margin-right: 16px;
+}
+
+.copyright-list li:last-child, .social-icons-list li:last-child {
+    margin-right: 0;
+}
+
+.social-icons-list li a {
+    color: #959da5;
+    font-size: 18px;
+}
+
+.copyright-list a:hover {
+    color: #0366d6;
+    text-decoration: underline;
+    transition: 0.2s;
 }
