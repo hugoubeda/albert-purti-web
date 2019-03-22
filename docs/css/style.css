@@ -46,7 +46,8 @@ body {
 }
 
 #pricing {
-    margin-top: 32px;
+    padding-top: 64px;
+    padding-bottom: 128px;
     display: flex;
     flex-direction: column;
 }
@@ -76,8 +77,9 @@ body {
 .plans-cards {
     display: flex;
     flex-wrap: nowrap;
-    padding: 16px 0;
-    margin: 16px 0;
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-bottom: 40px;
     align-items: stretch;
     justify-content: center;
 }
@@ -110,6 +112,18 @@ body {
 
 .text-blue {
     color: #0366d6;
+}
+
+.text-green {
+    color: #28a745;
+}
+
+.text-gray-dark {
+    color: #24292e;
+}
+
+.text-purple {
+    color: #6f42c1;
 }
 
 .plans-card-text {
@@ -180,9 +194,52 @@ body {
 .plans-card-btn:hover {
     border-color: transparent;
     color: white;
+    transition: 0.2s;
 }
 
 .plans-card-btn.text-blue:hover {
     background-color: #0366d6;
-    transition: 0.2s;
+}
+
+.plans-card-btn.text-green:hover {
+    background-color: #28a745;
+}
+
+.plans-card-btn.text-purple:hover {
+    background-color: #6f42c1;
+}
+
+.margin-bottom-8 {
+    margin-bottom: 8px;
+}
+
+.plans-card-text a.text-blue:hover {
+    text-decoration: underline;
+}
+
+.plans-footer {
+    text-align: center;
+    font-size: 14px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#signUpFreePlansLink {
+    box-shadow: 0 1px 0 0 rgba(18,119,235,.5);
+    color: #1277eb;
+    text-decoration: none!important;
+    transition: .2s;
+}
+
+#signUpFreePlansLink:hover {
+    box-shadow: 0 1px 0 0 #1277eb;
+    color: #0366d6;
+}
+
+.plans-footer p {
+    margin-bottom: 10px !important;
+    margin-top: 0 !important;
+    font-size: 14px !important;
+    width: 100% !important;
 }
