@@ -31,9 +31,25 @@
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
             </ul>
+
+            <ul class="navbar-sign-in">
+                <li><a href="#" class="sign-in">Sign in</a></li>
+                <li><a href="#" class="sign-up">Sign up</a></li>
+            </ul>
         </nav>
     </header>
 
+    <!-- SubHeader -->
+    <div class="subheader" id="subheader">
+        <div class="container">
+            <nav class="subheader-nav">
+               <a href="#">Developer</a>
+               <a href="#">Team</a>
+               <a href="#">Business Cloud</a>
+               <a href="#">Enterprise</a> 
+            </nav>
+        </div>
+    </div>
     <!-- Pricing and Plans -->
     <div class="container" id="pricing">
         <h1>Plans for all workflows</h1>
@@ -163,5 +179,26 @@
             </ul>
         </div>
     </footer>
+
+    <!-- JS -->
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        let subheader = document.getElementById("subheader");
+
+        // Get the offset position of the navbar
+        let sticky = subheader.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            subheader.classList.add("is-stuck")
+        } else {
+            subheader.classList.remove("is-stuck");
+        }
+        }
+    </script>
   </body>
 </html>

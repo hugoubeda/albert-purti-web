@@ -31,6 +31,10 @@ hr {
     align-items: center;
 }
 
+.header .container {
+    max-width: 1012px;
+}
+
 .navbar {
     min-height: 56px;
 }
@@ -51,12 +55,94 @@ hr {
 
 .navbar-items li a:hover {
     color: hsla(0,0%,100%,.75);
+    transition: 0.4s;
+}
+
+.navbar-sign-in {
+    display: flex;
+    margin-left: auto;
+    font-size: 16px;
+    align-items: center;
+}
+
+.navbar-sign-in li a:hover {
+    color: hsla(0,0%,100%,.75);
+    transition: 0.4s;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
+
+.sign-up {
+    display: inline-block;
+    padding: 4px 8px 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #e1e4e8;
+}
+
+.subheader {
+    position: sticky;
+    background-color: #fafbfc;
+    top: 0;
+    z-index: 21;
+    margin-bottom: -72px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    display: block;
+    font-size: 16px;
+}
+
+.subheader .container {
+    max-width: 1012px;
+    justify-content: flex-end;
+}
+
+.subheader-nav {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.subheader-nav a {
+    color: #586069;
+    margin-left: 16px;
+}
+
+.subheader-nav a:hover {
+    color: #0366d6;
     transition: 0.2s;
 }
 
+.subheader-nav a:first-child {
+    margin-left: 0;
+}
+
+.is-stuck {
+    background-clip: padding-box;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.is-stuck::after {
+    background: linear-gradient(rgba(0,0,0,.075),rgba(0,0,0,.001)) repeat-x 0 0;
+    bottom: -12px;
+    content: "";
+    display: block;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
 #pricing {
-    padding-top: 64px;
-    padding-bottom: 128px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     display: flex;
     flex-direction: column;
 }
@@ -363,4 +449,17 @@ hr {
     color: #0366d6;
     text-decoration: underline;
     transition: 0.2s;
+}
+
+@media (max-width: 1011px) {
+    .container {
+        margin: 0 !important;
+        padding-right: 40px;
+        padding-left: 40px;
+        max-width: 1012px;
+    }
+
+    #pricing {
+        padding-top: 40px;
+    }
 }
