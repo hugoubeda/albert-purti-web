@@ -5,18 +5,119 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="16x16">
 
-    <title>Hello, world!</title>
+    <!-- Destyle CSS -->
+    <link rel="stylesheet" href="css/destyle.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Pricing · Plans for every project team · GitHub</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Header -->
+    <header class="header">
+        <!-- Navbar -->
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" width="32" height="32" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <ul class="navbar-items">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Pricing and Plans -->
+    <div class="container" id="pricing">
+        <h1>Plans for all workflows</h1>
+        <p>GitHub is free to use for public and open source projects. Work&nbsp;together across unlimited private repositories with a paid&nbsp;plan.</p>
+
+        <!-- Plans Cards -->
+        <div class="plans-cards">
+            <div class="plans-card">
+                <a href="#" class="card-title">
+                    <h2 class="text-blue">Developer</h2>
+                </a>
+                <div class="plans-card-text">
+                    <h3>$7</h3>
+                    <p>per month</p>
+
+                    <h4>Includes:</h4>
+                    <ul>
+                        <li>Personal account</li>
+                        <li>Unlimited public repositories</li>
+                        <li>Unlimited private repositories</li>
+                        <li>Unlimited collaborators</li>
+                    </ul>
+
+                    <p>Free for students as part of the <a href="#" id="studentDeveloperPackLink">Student Developer Pack</a>.</p>
+                </div>
+                <a href="#" class="btn">Sign up</a>
+            </div>
+
+            <div class="plans-card">
+                <a href="#" class="card-title">
+                    <h2>Team</h2>
+                </a>
+                <div class="plans-card-text">
+                    <h3>$9</h3>
+                    <p>per user / month</p>
+
+                    <h4>Includes:</h4>
+                    <ul>
+                        <li>Unlimited public repositories</li>
+                        <li>Unlimited private repositories</li>
+                        <li>Team and user permissions</li>
+                    </ul>
+
+                    <p>Starting at <span class="text-gray-dark">$25</span> / month which includes your first 5 users.</p>
+                </div>
+                <a href="#" class="btn">Sign up your team</a>
+            </div>
+
+            <div class="plans-card">
+                <a href="#" class="card-title">
+                    <h2>Business Cloud</h2>
+                </a>
+                <div class="plans-card-text">
+                    <h3>$21</h3>
+                    <p>per user / month</p>
+
+                    <ul>
+                        <li>SAML single sign-on</li>
+                        <li>Access provisioning</li>
+                        <li>24/5 support with 8-hour response time</li>
+                        <li>99.95% uptime SLA</li>
+                    </ul>
+               </div>
+                <a href="#" class="btn">Get started</a>
+            </div>
+
+            <div class="plans-card">
+                <a href="#" class="card-title">
+                    <h2>Enterprise</h2>
+                </a>
+                <div class="plans-card-text">
+                    <h3><a href="#">
+                        Contact Sales <span class="text-gray">for pricing<sup>*</sup></span>
+                    </a></h3>
+
+                    <ul>
+                        <li>Self-hosted</li>
+                        <li>SAML, LDAP, and CAS</li>
+                        <li>Access provisioning</li>
+                        <li>24/7 support for urgent issues</li>
+                        <li>Advanced auditing</li>
+                    </ul>
+                    <a href="#" class="contactUs">Contact us to learn more</a>
+                </div>
+                <a href="#" class="btn">Start a free trial</a>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
