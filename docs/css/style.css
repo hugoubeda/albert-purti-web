@@ -42,6 +42,7 @@ body {
 
 .navbar-items li a:hover {
     color: hsla(0,0%,100%,.75);
+    transition: 0.2s;
 }
 
 #pricing {
@@ -109,4 +110,79 @@ body {
 
 .text-blue {
     color: #0366d6;
+}
+
+.plans-card-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 16px;
+}
+
+.plans-card-text h3 {
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.25
+}
+
+#pricing .plans-card-text p {
+    font-size: 14px;
+    margin-bottom: 24px;
+    color: #586069;
+    width: 100%;
+}
+
+.plans-card-text h4 {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 4px;
+}
+
+.plans-card-text ul {
+    line-height: 1.25;
+}
+
+.plans-card-text ul li {
+    margin-bottom: 4px;
+}
+
+#pricing .plans-card-desc {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 0px !important;
+    color: #586069;
+}
+
+#studentDeveloperPackLink {
+    box-shadow: 0 1px 0 0 rgba(18,119,235,.5);
+    color: #1277eb;
+    text-decoration: none!important;
+    transition: .2s;
+}
+
+#studentDeveloperPackLink:hover {
+    box-shadow: 0 1px 0 0 #1277eb;
+    color: #0366d6;
+}
+
+.plans-card-btn {
+    border-top: 1px solid #e1e4e8;
+    border-radius: 0 0 2px 2px;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.plans-card-btn:hover {
+    border-color: transparent;
+    color: white;
+}
+
+.plans-card-btn.text-blue:hover {
+    background-color: #0366d6;
+    transition: 0.2s;
 }
