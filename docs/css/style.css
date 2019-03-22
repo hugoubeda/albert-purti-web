@@ -551,4 +551,14 @@ hr {
     .social-icons-list {
         margin-bottom: 16px;
     }
+
+    .navbar-sign-in {
+        text-align: center;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .sign-in {
+        margin-right: 8px;
+    }
 }
