@@ -838,6 +838,10 @@ hr {
     .navbar-sign-in {
         text-align: center;
     }
+
+    .utility-box-title h2 {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 435px) {
