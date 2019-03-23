@@ -91,7 +91,7 @@
                             <input type="text" class="input-text" placeholder="Spencer" disabled>
                             @
                             <input type="text" class="input-text" placeholder="microsoft.com" disabled>
-                            <button class="btn">Find</button>
+                            <button class="btn" disabled>Find</button>
                         </div>
                         <div class="utility-box-content-results">
                             <div class="utility-box-content-result">
@@ -101,8 +101,8 @@
                                 <div class="utility-box-content-result-data">
                                     <p>phils@microsoft.com <span class="valid-email">Valid email address</span></p>
                                     <ul>
-                                        <li><button><i class="fas fa-envelope"></i></button></li>
-                                        <li><button><i class="fas fa-plus"></i></button></li>
+                                        <li><button disabled><i class="fas fa-envelope"></i></button></li>
+                                        <li><button disabled><i class="fas fa-plus"></i></button></li>
                                     </ul>
                                 </div>
                             </div>
@@ -247,12 +247,12 @@
         let sticky = subheader.offsetTop;
 
         // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            subheader.classList.add("is-stuck")
-        } else {
-            subheader.classList.remove("is-stuck");
-        }
+        function myFunction() {  
+            if (window.pageYOffset >= sticky) {
+                subheader.classList.add("is-stuck")
+            } else {
+                subheader.classList.remove("is-stuck");
+            }
         }
 
         let responsiveNavbar = document.getElementById("navbar-responsive");
