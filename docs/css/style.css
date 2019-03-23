@@ -324,14 +324,14 @@ hr {
     width: 50%;
 }
 
-#signUpFreePlansLink {
+.primary-link {
     box-shadow: 0 1px 0 0 rgba(18,119,235,.5);
     color: #1277eb;
     text-decoration: none!important;
     transition: .2s;
 }
 
-#signUpFreePlansLink:hover {
+.primary-link:hover {
     box-shadow: 0 1px 0 0 #1277eb;
     color: #0366d6;
 }
@@ -589,6 +589,18 @@ hr {
     color: #6b727c;
 }
 
+.email-demo-footer {
+    margin-top: 32px;
+}
+
+.email-demo-footer p {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #586069;
+    margin-bottom: 0;
+}
+
 @media (max-width: 1011px) {
     .container {
         margin: 0 !important;
@@ -719,6 +731,26 @@ hr {
     .sign-in-responsive a:hover {
         color: #24292e;
     }
+
+    .utility-box-content-fields {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .input-text {
+        margin-bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-text:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+    .utility-box-content-fields .btn {
+        width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -774,6 +806,10 @@ hr {
     .social-icons-list li a {
         font-size: 22px;
     }
+
+    .utility-box-title h2 {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 543px) {
@@ -801,5 +837,16 @@ hr {
 
     .navbar-sign-in {
         text-align: center;
+    }
+}
+
+@media (max-width: 435px) {
+    .utility-box-content-result-data p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .valid-email {
+        margin-right: auto;
     }
 }
