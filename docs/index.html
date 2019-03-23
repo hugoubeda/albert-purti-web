@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/logo2.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/logo3.png" sizes="16x16">
 
     <!-- Destyle CSS -->
     <link rel="stylesheet" href="css/destyle.css">
@@ -17,19 +17,20 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Pricing · Plans for every project team · GitHub</title>
+    <title>Hound Tool</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
         <!-- Navbar -->
         <nav class="navbar container">
-            <a href="#" class="logo">
-                <img src="images/logo2.png" width="32" height="32" class="d-inline-block align-top" alt="Logo">
+
+               <a class="logo"> <img src="images/logo3.png" width="173" height="32" class="d-inline-block align-top" alt="Logo">
             </a>
             <ul class="navbar-items">
-                <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+		        <li><a href="#">Contact</a></li>
             </ul>
 
             <ul class="navbar-sign-in">
@@ -48,8 +49,9 @@
                 </div>
                 <nav class="navbar-responsive-nav">
                     <ul class="navbar-items-responsive">
-                        <li><a href="#">Features</a></li>
                         <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul> 
                 </nav>
                 <div class="sign-in-responsive">
@@ -64,75 +66,78 @@
     <div class="subheader" id="subheader">
         <div class="container">
             <nav class="subheader-nav">
-               <a href="#">Developer</a>
-               <a href="#">Team</a>
-               <a href="#">Business Cloud</a>
-               <a href="#">Enterprise</a> 
+                <a href="#">Finder</a>
+                <a href="#">Scraper</a>
+                <a href="#">Verifier</a>
+                <a href="#">Bulk Lists</a> 
+                <a href="#">Leads Management</a> 
             </nav>
         </div>
     </div>
+
+    <!-- Email Finder -->
+    <div id="email-finder" class="feature-comparison">
+        <div class="container">
+            <h2>Find almost any business email address</h2>
+            <p>Hound Tool allows you to find verified corporate emails</p>
+        </div>
+    </div>
+
+    <hr>
+
     <!-- Pricing and Plans -->
     <div class="container" id="pricing">
         <h1>Plans for all workflows</h1>
-        <p>GitHub is free to use for public and open source projects. Work&nbsp;together across unlimited private repositories with a paid&nbsp;plan.</p>
+        <p>Choose the plan that best suits your workload.</p>
 
         <!-- Plans Cards -->
         <div class="plans-cards">
             <div class="plans-card">
                 <a href="#" class="card-title">
-                    <h2 class="text-blue">Developer</h2>
+                    <h2 class="text-blue">Starter</h2>
                 </a>
                 <div class="plans-card-text">
-                    <h3>$7</h3>
+                    <h3>$39</h3>
                     <p>per month</p>
 
-                    <h4>Includes:</h4>
                     <ul>
-                        <li>Personal account</li>
-                        <li>Unlimited public repositories</li>
-                        <li>Unlimited private repositories</li>
-                        <li>Unlimited collaborators</li>
+                        <li>1.000 requests</li>
                     </ul>
 
-                    <p class="plans-card-desc">Free for students as part of the <a href="#" id="studentDeveloperPackLink">StudentDeveloper Pack</a>.</p>
+                    <p class="plans-card-desc">Includes all funcionalities of the platform.</p>
                 </div>
                 <a href="#" class="plans-card-btn text-blue">Sign up</a>
             </div>
 
             <div class="plans-card">
                 <a href="#" class="card-title">
-                    <h2 class="text-green">Team</h2>
+                    <h2 class="text-green">Startup</h2>
                 </a>
                 <div class="plans-card-text">
-                    <h3>$9</h3>
-                    <p>per user / month</p>
+                    <h3>$79</h3>
+                    <p>per month</p>
 
-                    <h4>Includes:</h4>
                     <ul>
-                        <li>Unlimited public repositories</li>
-                        <li>Unlimited private repositories</li>
-                        <li>Team and user permissions</li>
+                        <li>5.000 requests</li>
                     </ul>
 
-                    <p class="plans-card-desc">Starting at <span class="text-gray-dark">$25</span> / month which includes your first 5 users.</p>
+                    <p class="plans-card-desc"></p>
                 </div>
-                <a href="#" class="plans-card-btn text-green">Sign up your team</a>
+                <a href="#" class="plans-card-btn text-green">Sign up</a>
             </div>
 
             <div class="plans-card">
                 <a href="#" class="card-title">
-                    <h2 class="text-purple">Business Cloud</h2>
+                    <h2 class="text-purple">Business</h2>
                 </a>
                 <div class="plans-card-text">
-                    <h3>$21</h3>
-                    <p>per user / month</p>
+                    <h3>$149</h3>
+                    <p>per month</p>
 
                     <ul>
-                        <li>SAML single sign-on</li>
-                        <li>Access provisioning</li>
-                        <li>24/5 support with 8-hour response time</li>
-                        <li>99.95% uptime SLA</li>
+                     <li>20.000 requests</li>
                     </ul>
+        <p class="plans-card-desc">    24/5 support with 8-hour response time</p>
                </div>
                 <a href="#" class="plans-card-btn text-purple">Get started</a>
             </div>
@@ -142,35 +147,32 @@
                     <h2 class="text-purple">Enterprise</h2>
                 </a>
                 <div class="plans-card-text">
-                    <h3>$49</h3>
-                    <p>per user / month</p>
+                    <h3>$319</h3>
+                    <p>per month</p>
 
                     <ul class="margin-bottom-8">
-                        <li>Self-hosted</li>
-                        <li>SAML, LDAP, and CAS</li>
-                        <li>Access provisioning</li>
-                        <li>24/7 support for urgent issues</li>
-                        <li>Advanced auditing</li>
+                        <li>50.000 requests</li>
                     </ul>
+                    <p class="plans-card-desc">24/7 support for urgent issues</p>
                     <a href="#" class="contactUs text-blue">Contact us to learn more</a>
                 </div>
-                <a href="#" class="plans-card-btn text-purple">Start a free trial</a>
+                <a href="#" class="plans-card-btn text-purple">Get Started</a>
             </div>
         </div>
 
         <!-- Plans Footer -->
         <div class="plans-footer">
-            <p>Don’t need unlimited private repositories? <a href="#" id="signUpFreePlansLink">Sign up for one of our free plans</a> for unlimited public and open source projects.</p>
+            <p>Still not sure about our service? <a href="#" id="signUpFreePlansLink">Sign up</a> and get 50 requests to try it for free.</p>
         </div>
     </div>
 
     <hr>
 
     <!-- Feature Comparison -->
-    <div id="feature-comparison">
+    <div id="feature-comparison" class="feature-comparison">
         <div class="container">
-            <h2>Feature comparison</h2>
-            <p>All GitHub plans include the tools and features teams rely on to manage projects, review code, and build software. Need more? Find the right plan for your team.</p>
+            <h2>Any questions?</h2>
+            <p>For pricing, payments, requests and other related questions, contact us.</p>
         </div>
     </div>
 
@@ -179,24 +181,21 @@
     <!-- Ready to get started? -->
     <div class="container" id="ready-to-get-started">
         <h2>Ready to get started?</h2>
-        <p><a href="#">Contact Sales →</a></p>
+        <p><a href="#">Sign up for free</a></p>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <ul class="copyright-list">
-                <li>&copy; 2019 GitHub, Inc.</li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li>&copy; 2019 Hound Tool</li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">GDPR Policy</a></li>
             </ul>
 
             <ul class="social-icons-list">
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-github"></i></a></li>
             </ul>
         </div>
     </footer>

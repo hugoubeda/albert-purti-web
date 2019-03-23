@@ -343,15 +343,15 @@ hr {
     width: 100% !important;
 }
 
-#feature-comparison {
+.feature-comparison {
     padding: 64px 0;
 }
 
-#feature-comparison .container{
+.feature-comparison .container{
     flex-direction: column;
 }
 
-#feature-comparison h2 {
+.feature-comparison h2 {
     font-size: 40px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -362,7 +362,7 @@ hr {
     width: 100%;
 }
 
-#feature-comparison p {
+.feature-comparison p {
     width: 66.66667%;
     color: #586069;
     margin-top: 0;
@@ -629,11 +629,11 @@ hr {
         width: 100%;
     }
 
-    #feature-comparison h2 {
+    .feature-comparison h2 {
         font-size: 32px;
     }
 
-    #feature-comparison p {
+    .feature-comparison p {
         width: 100%;
     }
 
