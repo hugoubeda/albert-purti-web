@@ -473,6 +473,122 @@ hr {
     display: none;
 }
 
+/* Email Finder Demo */
+#email-finder-demo {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.utility-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(255,255,255,0.25), 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.utility-box-title {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #c5c5c5;
+    background-color: #F6F8FA;
+}
+
+.utility-box-title h2 {
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+}
+
+.utility-box-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.utility-box-content-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-text {
+    width: 29%;
+    height: 36px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+.input-text:focus {
+    border-color: rgba(66,129,202,0.7);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(66,129,202,0.3);
+    outline-offset: -2px;
+}
+
+.utility-box-content-results {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.utility-box-content-result {
+    padding: 8px 0;
+}
+
+.utility-box-content-result-title p {
+    font-weight: bold;
+    margin: 0;
+    margin-top: 8px;
+    width: 100%;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+}
+
+.utility-box-content-result-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valid-email {
+    color: #fff;
+    font-size: 0.7em;
+    background-color: #1aa74a;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.utility-box-content-result-data p {
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+}
+
+.utility-box-content-result-data ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.utility-box-content-result-data ul li {
+    margin: 0 8px;
+    color: #6b727c;
+}
+
 @media (max-width: 1011px) {
     .container {
         margin: 0 !important;
