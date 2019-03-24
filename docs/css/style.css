@@ -477,6 +477,7 @@ hr {
 #email-finder-demo {
     padding-top: 32px;
     padding-bottom: 32px;
+    width: 100%;
 }
 
 .utility-box {
@@ -599,6 +600,42 @@ hr {
     font-size: 14px;
     color: #586069;
     margin-bottom: 0;
+}
+
+.full-width {
+    width: 92%;
+}
+
+#domain-scraper-demo {
+    width: 100%;
+}
+
+#domain-scraper-demo .utility-box-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#domain-scraper-demo .utility-box-content-fields {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#domain-scraper-demo .utility-box-content-results {
+    padding-bottom: 0;
+}
+
+#domain-scraper-demo .utility-box-content-result {
+    padding: 16px 16px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+#domain-scraper-demo .utility-box-content-result:last-child {
+    border-bottom: none;
+}
+
+#domain-scraper-demo .utility-box-content-result-data .valid-email {
+    background-color: #eaebee;
+    color: #333;
 }
 
 @media (max-width: 1011px) {
