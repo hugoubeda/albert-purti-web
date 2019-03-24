@@ -787,6 +787,52 @@ hr {
     margin-right: 16px;
 }
 
+.email-verifier-demo-footer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.col-4 {
+    width: 33.3333333%;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.col-4 i {
+    color: #ADADD1;
+    float: left;
+    font-size: 24px;
+    margin-left: -32px;
+    margin-top: 7px;
+}
+
+.col-4 h3 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+    color: #3a3a3a;
+    font-weight: 500;
+    line-height: 1.1;
+    text-rendering: optimizeLegibility;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.col-4 p {
+    color: #5a5a5a;
+    text-align: left;
+    margin: 0 0 10px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 @media (max-width: 1011px) {
     .container {
         margin: 0 !important;
@@ -941,6 +987,10 @@ hr {
     #email-verifier-demo .btn {
         margin-left: 0;
     }
+
+    .email-verifier-demo-footer {
+        flex-flow: row wrap;
+    }
 }
 
 @media (max-width: 767px) {
@@ -999,6 +1049,18 @@ hr {
 
     .utility-box-title h2 {
         font-size: 16px;
+    }
+
+    .email-verifier-demo-footer {
+        align-items: center;
+        display: flex;
+        flex: 0 1 100%;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
     }
 }
 
