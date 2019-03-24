@@ -416,6 +416,7 @@ hr {
     background-color: #1d6ac8;
     background-image: -moz-linear-gradient(#45b3f3, #1d6ac8);
     background-image: -webkit-linear-gradient(#45b3f3, #1d6ac8);
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#45b3f3', endColorstr='#1d6ac8')";
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#45b3f3', endColorstr='#1d6ac8')";
     border-color: #1d6ac8 #1d6ac8 #1a5eb2;
 
