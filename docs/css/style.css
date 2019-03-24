@@ -580,6 +580,16 @@ hr {
     font-weight: 500;
 }
 
+.risky-email-grey {
+    color: #5a5a5a;
+    font-size: 0.7em;
+    background-color: #fff;
+    padding: 1px 3px;
+    border-radius: 3px;
+    border: 1px solid #c5c5c5;
+    font-weight: 500;
+}
+
 .utility-box-content-result-data p {
     font-weight: 400;
     margin: 0;
@@ -990,6 +1000,19 @@ hr {
 
     .email-verifier-demo-footer {
         flex-flow: row wrap;
+    }
+
+    #email-verifier-demo .utility-box-content-result-data p {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    #email-verifier-demo .utility-box-content-result-data p span {
+        margin-left: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        text-align: center;
     }
 }
 
