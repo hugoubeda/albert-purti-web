@@ -571,6 +571,15 @@ hr {
     font-weight: 500;
 }
 
+.risky-email {
+    color: #333;
+    font-size: 0.7em;
+    background-color: #f8d749;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
 .utility-box-content-result-data p {
     font-weight: 400;
     margin: 0;
@@ -636,6 +645,14 @@ hr {
 #domain-scraper-demo .utility-box-content-result-data .valid-email {
     background-color: #eaebee;
     color: #333;
+}
+
+#email-verifier-demo {
+    width: 100%;
+}
+
+#email-verifier-demo .btn {
+    margin-left: 10px;
 }
 
 @media (max-width: 1011px) {
@@ -788,6 +805,10 @@ hr {
     .utility-box-content-fields .btn {
         width: 100%;
     }
+
+    #email-verifier-demo .btn {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -888,6 +909,10 @@ hr {
     }
 
     .valid-email {
+        margin-right: auto;
+    }
+
+    .risky-email {
         margin-right: auto;
     }
 }
