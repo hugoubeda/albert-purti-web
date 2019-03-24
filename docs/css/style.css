@@ -655,6 +655,138 @@ hr {
     margin-left: 10px;
 }
 
+#upload-list-demo {
+    width: 100%;
+}
+
+.utility-box-header {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utility-box-header h2 {
+    font-size: 24px;
+    margin-top: 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+.utility-box-header h3 {
+    font-size: 24px;
+    color: #767676;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.utility-box-header p {
+    font-size: 16px;
+    color: #767676;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+#upload-list-demo .utility-box-content {
+    border-top: 1px solid #c5c5c5;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+#upload-list-demo .utility-box-content-results {
+    padding: 0;
+}
+
+.utility-box-content-table-wrapper {
+    overflow: auto;
+}
+
+.utility-box-content-table {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    max-width: 1012px;
+    min-width: 700px;
+}
+
+.utility-box-content-table-header {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.utility-box-content-table-header .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    padding: 12px 15% 12px 12px;
+}
+
+.utility-box-content-table-header .row li {
+    padding-left: 16px;
+    width: 25%;
+}
+
+.utility-box-content-table-header .row li:first-child {
+    padding-left: 0;
+}
+
+.utility-box-content-table-data  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-data-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.table-data-row:last-child {
+    border-bottom: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.row li {
+    padding-left: 16px;
+    width: 25%;
+}
+
+.row li:first-child {
+    padding-left: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons li {
+    margin-right: 16px;
+}
+
 @media (max-width: 1011px) {
     .container {
         margin: 0 !important;
