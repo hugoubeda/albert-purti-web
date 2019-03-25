@@ -728,8 +728,6 @@ hr {
 .utility-box-content-table {
     display: flex;
     flex-direction: column;
-    padding: 16px;
-    padding-top: 0;
     max-width: 1012px;
     min-width: 700px;
     font-size: 14px;
@@ -853,6 +851,10 @@ hr {
     font-size: 14px;
     line-height: 1.4;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.utility-box-header img {
+    margin-top: 16px;
 }
 
 @media (max-width: 1011px) {
