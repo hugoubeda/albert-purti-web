@@ -857,6 +857,26 @@ hr {
     margin-top: 16px;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.contact-form .input-text {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.contact-form .btn {
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 100%;
+}
+
 @media (max-width: 1011px) {
     .container {
         margin: 0 !important;
@@ -1028,6 +1048,12 @@ hr {
         margin-bottom: 3px;
         text-align: center;
     }
+
+    .contact-form .input-text {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
 }
 
 @media (max-width: 767px) {
