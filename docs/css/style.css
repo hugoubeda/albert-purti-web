@@ -502,7 +502,7 @@ hr {
 .utility-box-title h2 {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255,255,255,0.75);
-    font-size: 20px;
+    font-size: 14px;
     margin: 0;
     text-align: left;
     font-weight: 500;
@@ -615,7 +615,8 @@ hr {
 
 .utility-box-content-result-data ul li {
     margin: 0 8px;
-    color: #6b727c;
+    color: #333;
+    font-size: 14px;
 }
 
 .email-demo-footer {
@@ -692,7 +693,7 @@ hr {
 
 .utility-box-header h2 {
     text-shadow: 0 1px 0 rgba(255,255,255,0.75);
-    font-size: 20px;
+    font-size: 14px;
     margin: 0;
     text-align: left;
     font-weight: 500;
@@ -905,6 +906,9 @@ hr {
 .utility-box-title ul li {
     margin-right: 32px;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .utility-box-title ul li::after {
@@ -1198,7 +1202,7 @@ hr {
     }
 
     .utility-box-header h2 {
-        font-size: 20px;
+        font-size: 14px;
     }
 }
 
@@ -1230,11 +1234,11 @@ hr {
     }
 
     .utility-box-title h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .utility-box-header h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .contact-form-section {
