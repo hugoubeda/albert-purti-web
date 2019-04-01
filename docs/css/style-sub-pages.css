@@ -35,3 +35,13 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.text-blue:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1011px) {
+    .main.container {
+        margin-top: 64px !important;
+    }
+}
