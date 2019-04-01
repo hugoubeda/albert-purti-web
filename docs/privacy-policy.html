@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+
+    <!-- Destyle CSS -->
+    <link rel="stylesheet" href="css/destyle.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hound Tool</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Navbar -->
+        <nav class="navbar container">
+
+               <a class="logo"> <img src="images/logo.png" width="173" height="32" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <ul class="navbar-items">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+		        <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul class="navbar-sign-in">
+                <li><a href="#" class="sign-in">Sign in</a></li>
+                <li><a href="#" class="btn">Sign up</a></li>
+            </ul>
+
+            <!-- Responsive Navbar -->
+            <ul class="navbar-sign-in-responsive">
+                <li><i class="fas fa-bars" id="navbar-open"></i></li>
+            </ul>
+
+            <div class="navbar-responsive hidden" id="navbar-responsive">
+                <div class="cross-menu">
+                    <i class="fas fa-times" id="navbar-close"></i>
+                </div>
+                <nav class="navbar-responsive-nav">
+                    <ul class="navbar-items-responsive">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul> 
+                </nav>
+                <div class="sign-in-responsive">
+                    <a href="#">Sign in</a>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="copyright-list">
+                <li>&copy; 2019 Hound Tool</li>
+                <li><a href="./privacy-policy.html">Privacy policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">GDPR Policy</a></li>
+            </ul>
+
+            <ul class="social-icons-list">
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        let responsiveNavbar = document.getElementById("navbar-responsive");
+        let navbarOpen = document.getElementById("navbar-open");
+        let navbarClose = document.getElementById("navbar-close");
+
+        navbarOpen.addEventListener("click", function(){
+            responsiveNavbar.classList.remove("hidden");
+        });
+
+        navbarClose.addEventListener("click", function(){
+            responsiveNavbar.classList.add("hidden");
+        });
+    </script>
+  </body>
+</html>
