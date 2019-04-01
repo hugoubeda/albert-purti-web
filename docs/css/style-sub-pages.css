@@ -2,3 +2,32 @@
     padding: 16px 40px;
     justify-content: space-between;
 }
+
+.main {
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+h1 {
+   font-size: 2em;
+   padding-bottom: 0.3em;
+   margin-bottom: 16px;
+   line-height: 1.25;
+   font-weight: 500;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 1.25;
+}
+
+p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+}

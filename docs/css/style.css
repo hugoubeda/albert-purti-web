@@ -948,6 +948,23 @@ hr {
     width: auto;
 }
 
+.search-input {
+    position: relative;
+}
+
+.search-input .input-text {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 8px 10px 32px;
+}
+
+.search-input i {
+    position: absolute;
+    color: #1074e7;
+    top: 10px;
+    left: 9px;
+}
+
 @media (max-width: 1011px) {
     .container {
         margin: 0 !important;
