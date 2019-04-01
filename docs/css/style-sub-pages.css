@@ -45,3 +45,14 @@ p {
         margin-top: 64px !important;
     }
 }
+
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
