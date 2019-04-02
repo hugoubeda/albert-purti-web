@@ -40,6 +40,18 @@ p {
     text-decoration: underline;
 }
 
+.list {
+    padding-left: 2em;
+    margin-top: 0;
+    margin-bottom: 16px;
+    list-style-type: initial;
+    width: 90%;
+}
+
+.list a {
+    word-wrap: break-word;
+}
+
 @media (max-width: 1011px) {
     .main.container {
         margin-top: 64px !important;
