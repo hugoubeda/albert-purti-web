@@ -1285,3 +1285,11 @@ hr {
         margin-right: auto;
     }
 }
+
+mark {
+    background: yellow;
+  }
+  
+  mark.current {
+    background: orange;
+  }

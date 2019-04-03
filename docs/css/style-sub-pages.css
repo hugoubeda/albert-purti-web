@@ -1,5 +1,9 @@
 header {
     background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .navbar {
@@ -10,7 +14,7 @@ header {
 .main {
     flex-direction: column;
     text-align: justify;
-    margin-top: 64px;
+    margin-top: 116px;
     margin-bottom: 64px;
 }
 
