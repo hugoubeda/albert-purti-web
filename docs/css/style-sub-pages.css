@@ -58,7 +58,7 @@ p {
 
 @media (max-width: 1011px) {
     .main.container {
-        margin-top: 64px !important;
+        margin-top: 116px !important;
     }
 }
 
@@ -70,5 +70,13 @@ p {
     .navbar a {
         margin-right: 0;
         margin-bottom: 16px;
+    }
+
+    .main.container {
+        margin-top: 148px !important;
+    }
+
+    h1 {
+        text-align: center;
     }
 }
