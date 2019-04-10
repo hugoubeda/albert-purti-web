@@ -56,6 +56,11 @@ p {
     word-wrap: break-word;
 }
 
+#faq h3, #faq p {
+    width: 100%;
+    text-align: left;
+}
+
 @media (max-width: 1011px) {
     .main.container {
         margin-top: 116px !important;
