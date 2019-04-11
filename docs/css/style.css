@@ -59,7 +59,7 @@ hr {
 }
 
 .navbar-items li a:hover {
-    color: hsla(0,0%,100%,.75);
+    color: #0366d6;
     transition: 0.4s;
 }
 
@@ -77,6 +77,10 @@ hr {
 
 .sign-in {
     margin-right: 16px;
+}
+
+.sign-in:hover {
+    color: #0366d6 !important;
 }
 
 .sign-up {
