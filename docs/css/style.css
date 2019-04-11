@@ -17,10 +17,11 @@ hr {
 }
 
 .header {
-    background-color: #24292e;
+    background-color: whitesmoke;
     padding: 16px 0;
     color: white;
     font-size: 16px;
+    color: #586069;
 }
 
 .container {
@@ -35,9 +36,9 @@ hr {
     max-width: 1012px;
 }
 
-.navbar {
+/* .navbar {
     min-height: 56px;
-}
+} */
 
 .logo {
     margin-right: 24px;
@@ -1007,7 +1008,7 @@ hr {
         font-size: 20px;
         cursor: pointer;
         margin-top: 4px;
-        color: #fff;
+        color: #586069;
     }
 
     .navbar-responsive {
