@@ -48,8 +48,13 @@
                     <h3>Sign in</h3>
                     <a href="#" rel="modal:close"><i class="fas fa-times"></i></a>
                 </div>
-                <p>Prueba sign in</p>
-                <a href="#" rel="modal:close">Close</a>
+
+                <form action="#" class="sign-in-form">
+                    <input type="email" name="email" id="email-sign-in" placeholder="Email" class="input-text" required>
+                    <input type="password" name="password" id="password-sign-in" placeholder="Password" class="input-text" required>
+                    <a href="#" class="primary-link">Forgot your password?</a>
+                    <input type="submit" value="Login" class="btn">
+                </form> 
             </div>
 
             <!-- Sign up Modal -->
@@ -100,7 +105,7 @@
     <div id="email-finder" class="feature-comparison">
         <div class="container">
             <h2>Find almost any business email address</h2>
-            <p>Hound Tool allows you to find verified corporate emails</p>
+            <p>Hound Tool lets you find completely verified emails and connect with your future clients.</p>
             <div id="email-finder-demo">
                 <div class="utility-box">
                     <div class="utility-box-title">
@@ -133,7 +138,7 @@
                 
                 <!-- Email Demo Footer -->
                 <div class="email-demo-footer">
-                    <p>Still not sure about our service? <a href="#" class="primary-link">Sign up</a> and get 50 requests to try it for free.</p>
+                    <p>You just need a name, a last name and the URL for the website of the company where the person that you are looking for is currently working. You can <a href="#" class="primary-link">try it</a> for free.</p>
                 </div>
             </div>
         </div>
@@ -144,12 +149,12 @@
     <!-- Domain Scraper Demo -->
     <div id="domain-scraper" class="feature-comparison">
         <div class="container">
-            <h2>Find almost any business email address</h2>
-            <p>Hound Tool allows you to find verified corporate emails</p>
+            <h2>Do not lose time searching in the web</h2>
+            <p>Retrieve all the emails that appear in a single domain with just one click.</p>
             <div id="domain-scraper-demo">
                 <div class="utility-box">
                     <div class="utility-box-title">
-                        <h2>Domain Scraper</h2>
+                        <h2>Email Scraper</h2>
                     </div>
                     <div class="utility-box-content">
                         <div class="utility-box-content-fields">
@@ -212,7 +217,7 @@
                 
                 <!-- Email Demo Footer -->
                 <div class="email-demo-footer">
-                    <p>Still not sure about our service? <a href="#" class="primary-link">Sign up</a> and get 50 requests to try it for free.</p>
+                    <p>You just need to enter the URL for the website so that Hound Tool can retrieve all the emails found in the source code.</p>
                 </div>
             </div>
         </div>
@@ -223,8 +228,8 @@
     <!-- Email Verifier Demo -->
     <div id="email-verifier" class="feature-comparison">
         <div class="container">
-            <h2>Find almost any business email address</h2>
-            <p>Hound Tool allows you to find verified corporate emails</p>
+            <h2>Make sure to have the correct emails</h2>
+            <p>It is important that your emails are verified to avoid losing time and money.</p>
             <div id="email-verifier-demo">
                 <div class="utility-box">
                     <div class="utility-box-title">
@@ -249,18 +254,18 @@
                 <div class="email-verifier-demo-footer">
                     <div class="col-4">
                         <i class="fas fa-check"></i>
-                        <h3>Included</h3>
-                        <p>Support for GitHub Enterprise is offered at no extra cost, 24 hours a day, 5 days a week.</p>
+                        <h3>Valid</h3>
+                        <p>The email is correct and deliverable. All the verifications have been passed.</p>
                     </div>
                     <div class="col-4">
                         <i class="fas fa-question"></i>
-                        <h3>Global</h3>
-                        <p>Our support team spans the globe, so we've always got you covered, regardless of your time zone.</p>
+                        <h3>Risky</h3>
+                        <p>It is not possible to verify the email because the server does not allow it. It could bounce.</p>
                     </div>
                     <div class="col-4">
                         <i class="fas fa-times"></i>
-                        <h3>Fast</h3>
-                        <p>We target an initial response time of 30 minutes for urgent requests.</p>
+                        <h3>Invalid</h3>
+                        <p>The email does not exist and cannot be delivered. The verifications have not been passed.</p>
                     </div>
                 </div>
             </div>
@@ -272,15 +277,15 @@
     <!-- Upload Your List Demo -->
     <div id="upload-list" class="feature-comparison">
         <div class="container">
-            <h2>Find almost any business email address</h2>
-            <p>Hound Tool allows you to find verified corporate emails</p>
+            <h2>Economize email verification</h2>
+            <p>Clean your lists from old and inactive emails that are no longer valid.</p>
             <div id="upload-list-demo">
                 <div class="utility-box">
                     <div class="utility-box-header">
                         <img src="images/cloud-sync-icon.png" alt="Icon">
-                        <h3>Upload Your List</h3>
-                        <p>Drag files here, or click to upload</p>
-                        <p>Files must be in CSV, TXT format</p>
+                        <h3>Upload your list</h3>
+                        <p>Drag files or click here to upload</p>
+                        <p>Files must be in CSV or TXT format</p>
                     </div>
                     <div class="utility-box-content">
                         <div class="utility-box-header">
@@ -300,8 +305,8 @@
                                 <div class="utility-box-content-table-data">
                                     <div class="table-data-row">
                                         <ul class="row">
-                                            <li>2019-03-22T15:22:31.154</li>
-                                            <li>Documento.txt</li>
+                                            <li>2019-03-22</li>
+                                            <li>document.txt</li>
                                             <li>42</li>
                                             <li>Completed</li>
                                         </ul>
@@ -314,7 +319,7 @@
     
                                     <div class="table-data-row">
                                         <ul class="row">
-                                            <li>2019-03-22T15:21:53.968</li>
+                                            <li>2019-03-22</li>
                                             <li>leads.csv</li>
                                             <li>2</li>
                                             <li>Completed</li>
@@ -333,7 +338,7 @@
                 
                 <!-- Email Demo Footer -->
                 <div class="email-demo-footer">
-                    <p>Still not sure about our service? <a href="#" class="primary-link">Sign up</a> and get 50 requests to try it for free.</p>
+                    <p>You can directly paste the emails or upload them in txt or csv files. In a few minutes you will have the results.</p>
                 </div>
             </div>
         </div>
@@ -344,8 +349,8 @@
     <!-- Leads Management -->
     <div id="leads-management" class="feature-comparison">
         <div class="container">
-            <h2>Find almost any business email address</h2>
-            <p>Hound Tool allows you to find verified corporate emails</p>
+            <h2>Manage your leads</h2>
+            <p>Keep your leads organized to not lose any email</p>
             <div id="leads-management-demo">
                 <div class="leads-management-header">
                     <div class="search-input">
@@ -366,10 +371,10 @@
                         <div class="utility-box-content-results">
                             <div class="utility-box-content-result">
                                 <div class="utility-box-content-result-title">
-                                    <p>David Casellas</p>
+                                    <p>Generic Email</p>
                                 </div>
                                 <div class="utility-box-content-result-data">
-                                    <p>david@pridatect.com <span class="risky-email-grey">pridatect.com</span></p>
+                                    <p>info@pridatect.com <span class="risky-email-grey">pridatect.com</span></p>
                                     <ul>
                                         <li><button disabled><i class="fas fa-edit"></i></button></li>
                                         <li><button disabled><i class="fas fa-envelope"></i></button></li>
@@ -409,7 +414,7 @@
                 
                 <!-- Demo Footer -->
                 <div class="email-demo-footer">
-                    <p>Still not sure about our service? <a href="#" class="primary-link">Sign up</a> and get 50 requests to try it for free.</p>
+                    <p>You can save, create, edit and export those leads that matter to you.</p>
                 </div>
             </div>
         </div>
@@ -469,7 +474,7 @@
                     <ul>
                      <li>20.000 requests</li>
                     </ul>
-        <p class="plans-card-desc">    24/5 support with 8-hour response time</p>
+                    <p class="plans-card-desc">    24/5 support with 8-hour response time</p>
                </div>
                 <a href="#" class="plans-card-btn text-purple">Get started</a>
             </div>

@@ -39,3 +39,24 @@
   color: #0366d6;
   transition: 0.2s;
 }
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-in-form input.input-text {
+  width: 70%;
+  margin: 8px;
+}
+
+.sign-in-form input.btn {
+  margin: 16px;
+}
+
+.sign-in-form a.primary-link {
+  align-self: flex-start;
+  margin-left: 15%;
+}
