@@ -1,0 +1,41 @@
+.blocker {
+  background-color: rgba(0,0,0,0.45);
+}
+
+.modal {
+  border-radius: 3px;
+  box-shadow: 0 0 18px rgba(0,0,0,.4);
+  background-clip: padding-box;
+  background-color: #fff;
+  border-color: #444d56;
+  max-width: 448px;
+  border: 1px solid #d1d5da;
+  padding: 0;
+  font-size: 14px;
+}
+
+.modal:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.modal a.close-modal {
+  display: none;
+}
+
+.box-header {
+  padding: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-header a i {
+  color: #586069;
+}
+
+.box-header a i:hover {
+  color: #0366d6;
+  transition: 0.2s;
+}
