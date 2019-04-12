@@ -97,3 +97,7 @@
   line-height: 1.2;
   margin-bottom: 8px;
 }
+
+.small-text .text-blue:hover {
+  text-decoration: underline;
+}
