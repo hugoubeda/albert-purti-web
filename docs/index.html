@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header is-stuck">
         <!-- Navbar -->
         <nav class="navbar container">
 
@@ -53,10 +53,10 @@
                     <input type="email" name="email" id="email-sign-in" placeholder="Email" class="input-text" required>
                     <input type="password" name="password" id="password-sign-in" placeholder="Password" class="input-text" required>
                     <a href="#" class="primary-link">Forgot your password?</a>
-                    <input type="submit" value="Login" class="btn">
+                    <input type="submit" value="Sign in" class="btn">
                     <div class="google-icon-wrap">
                         <img src="./images/google-icon.png" alt="google icon">
-                        <p>Login with Google</p>
+                        <p>Sign in with Google</p>
                     </div>
                 </form>
 
@@ -65,10 +65,28 @@
                 </div>
             </div>
 
-            <!-- Sign up Modal -->
+            <!-- Sign in Modal -->
             <div id="sign-up-modal" class="modal">
-                <p>Prueba sign up</p>
-                <a href="#" rel="modal:close">Close</a>
+                <div class="box-header">
+                    <h3>Sign up</h3>
+                    <a href="#" rel="modal:close"><i class="fas fa-times"></i></a>
+                </div>
+
+                <form action="#" class="sign-in-form">
+                    <input type="email" name="email" id="email-sign-in" placeholder="Email" class="input-text" required>
+                    <input type="password" name="password" id="password-sign-up" placeholder="Password" class="input-text" required>
+                    <p class="small-text">Make sure it's more than 10 characters, or at least 8 characters, including a number and a letter.</p>
+                    <input type="password" name="password2" id="password-sign-up-2" placeholder="Confirm password" class="input-text" required>
+                    <input type="submit" value="Create an account" class="btn">
+                    <div class="google-icon-wrap">
+                        <img src="./images/google-icon.png" alt="google icon">
+                        <p>Sign up with Google</p>
+                    </div>
+                </form>
+
+                <div class="box-footer">
+                    <p class="small-text">By clicking “Create an account” you agree to our <a href="./terms-and-conditions.html" class="text-blue">terms of service</a> and <a href="./privacy-policy.html" class="text-blue">privacy statement</a>. We’ll occasionally send you account related emails.</p>
+                </div>
             </div>
 
 

@@ -86,3 +86,14 @@
   width: 28px;
   margin-right: 8px;
 }
+
+.small-text {
+  font-size: 12px;
+}
+
+.sign-in-form .small-text {
+  width: 69%;
+  text-align: justify;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
