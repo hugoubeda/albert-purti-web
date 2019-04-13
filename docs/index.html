@@ -587,6 +587,13 @@
         </div>
     </footer>
     
+    <div id="cookieConsent">
+        <div class="cookieWrapper">
+            <div id="closeCookieConsent">x</div>
+            <p>This website is using cookies. <a href="#" target="_blank">More info</a>.</p>
+            <a class="cookieConsentOK btn">That's Fine</a>
+        </div>
+    </div>
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
@@ -631,6 +638,15 @@
             responsiveNavbar.classList.add("hidden");
         });
 
+
+        $(document).ready(function(){   
+            setTimeout(function () {
+                $("#cookieConsent").fadeIn(200);
+            }, 4000);
+            $("#closeCookieConsent, .cookieConsentOK").click(function() {
+                $("#cookieConsent").fadeOut(200);
+            }); 
+        }); 
     </script>
   </body>
 </html>

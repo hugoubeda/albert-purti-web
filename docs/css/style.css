@@ -1303,3 +1303,59 @@ mark {
   mark.current {
     background: orange;
   }
+
+  /*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #1277eb;
+}
+#cookieConsent a:hover {
+    text-decoration: underline;
+}
+#closeCookieConsent {
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    padding-top: 0;
+    line-height: 1.1;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    /* margin-left: 70%; */
+    font-weight: 600;
+}
+
+.cookieConsentOK:hover {
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.cookieConsentOK.btn {
+    padding: 6px;
+    color: #fff !important;
+}
+
+.cookieWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 46px;
+}
+/*Cookie Consent End*/
